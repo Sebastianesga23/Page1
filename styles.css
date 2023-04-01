@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#position{
+    width: 500px;
+    height: 300px;
+    background-color: #d35400;
+    position: relative;
+}
+
+#position .cuadrado{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#position .circulo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: #f2f2c1;
+}
+
+.cuadrado{
+    width: 30px;
+    height: 30px;
+    background-color: #1abc9c;
+}
+
+.circulo{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;    
+}
